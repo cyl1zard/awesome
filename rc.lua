@@ -67,12 +67,12 @@ terminal   = "urxvtc" or "xterm"
 editor     = os.getenv("EDITOR") or "nano" or "vim"
 
 -- user defined
-local chosen_theme 	= "bsLq"
-local browser       = "firefox"
-local filemanager   = "pcmanfm"
-local gui_editor 	= "subl3"
-local graphics   	= "viewnior"
-local tagnames      = {" ", " ", " ", " ", " " , " ", " ", " ", "  "}
+local chosen_theme = "bsLq"
+local browser      = "firefox"
+local filemanager  = "pcmanfm"
+local gui_editor   = "subl3"
+local graphics     = "viewnior"
+local tagnames     = {" ", " ", " ", " ", " " , " ", " ", " ", "  "}
 
 -- table of layouts to cover with awful.layout.inc
 awful.layout.layouts = {
