@@ -32,6 +32,7 @@ run_once("perWindowLayoutD")
 run_once("sleep 5s && mpd")
 run_once("conky -c /home/buslique/.config/conky/conky.conf")
 run_once("/opt/urserver/urserver --daemon")
+--run_once("xrasengan --right DP1 DP3")
 --run_once("xfsettingsd")
 --run_once("unclutter -root -idle 12")
 -- }}}
