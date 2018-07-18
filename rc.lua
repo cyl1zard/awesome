@@ -608,7 +608,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey }, "c", function () os.execute("xsel | xsel -b") end),
 
     -- Locker
-    awful.key({ altkey }, "l", function () os.execute("i3lock -i ~/.config/awesome/themes/multicolor/lock.png") end),
+    awful.key({ altkey }, "l", function () os.execute("i3lock -g") end),
 
 
     -- User programs
